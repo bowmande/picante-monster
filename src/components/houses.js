@@ -126,7 +126,7 @@ export default function Houses () {
   return (
   <>
     <Text fontSize="3xl">House Info</Text>
-    <Grid templateColumns="repeat(3, 1fr)" gap={2}>
+    <Grid templateColumns="repeat(2, 1fr)" gap={2}>
       { properties.map((property) => (
       <Box maxW="sm" borderWidth="1px" rounded="lg" overflow="hidden">
         <a href={property.link}>

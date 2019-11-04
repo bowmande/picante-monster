@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import { Link } from "gatsby"
 import Loadable from 'react-loadable'
 
 import Layout from "../components/layout"
